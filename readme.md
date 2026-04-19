@@ -18,7 +18,7 @@ A modern glass-style personal portfolio website built using HTML, CSS, and JavaS
 - Glassmorphism-inspired UI
 - Contact form section
 - GitHub link integration
-- Download CV button
+- CV button
 - No photo section
 
 ## Files

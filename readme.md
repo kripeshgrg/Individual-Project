@@ -1,6 +1,6 @@
 # Kripesh Gurung Portfolio
 
-A modern glass-style portfolio website built using HTML, CSS, and JavaScript.
+A modern glass-style personal portfolio website built using HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -17,7 +17,8 @@ A modern glass-style portfolio website built using HTML, CSS, and JavaScript.
 - Responsive layout
 - Glassmorphism-inspired UI
 - Contact form section
-- GitHub icon only
+- GitHub link integration
+- Download CV button
 - No photo section
 
 ## Files
@@ -26,6 +27,7 @@ A modern glass-style portfolio website built using HTML, CSS, and JavaScript.
 - style.css
 - script.js
 - README.md
+- CV.html
 
 ## Personal Details Included
 
@@ -40,7 +42,7 @@ A modern glass-style portfolio website built using HTML, CSS, and JavaScript.
   - Production Manager for Fanta photo shoot
   - Production Assistant for Sprite photoshoot
   - Production Assistant for eSewa ad shoot
-  - Art Assistant for music video (Sushant KC's Sarangi)
+  - Art Assistant for Sushant KC's Sarangi music video
 
 ## Sections Included
 
@@ -60,9 +62,21 @@ A modern glass-style portfolio website built using HTML, CSS, and JavaScript.
    - style.css
    - script.js
    - README.md
-3. Add your resume file and name it:
-   - resume.pdf
-4. Open index.html in your browser.
+   - CV.html
+3. Open `index.html` in your browser.
+
+## Contact Form
+
+The contact form uses `mailto:` in JavaScript.
+When a user submits the form, it opens their default email app and prepares a message to:
+
+**Kripesh.gurung@westcliff.edu**
+
+## GitHub Link
+
+The GitHub icon links to:
+
+**https://github.com/kripeshgrg**
 
 ## Technologies Used
 

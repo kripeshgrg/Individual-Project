@@ -61,13 +61,27 @@ if (year) {
   year.textContent = new Date().getFullYear();
 }
 
-// CONTACT FORM DEMO
+// CONTACT FORM TO EMAIL
 if (contactForm) {
   contactForm.addEventListener("submit", function (e) {
     e.preventDefault();
-    alert(
-      "Your message has been submitted. Connect EmailJS or a backend later to make it fully functional."
+
+    const name = document.getElementById("name")?.value.trim();
+    const email = document.getElementById("email")?.value.trim();
+    const subject = document.getElementById("subject")?.value.trim();
+    const message = document.getElementById("message")?.value.trim();
+
+    const emailSubject = encodeURIComponent(subject || "Portfolio Contact Form Message");
+    const emailBody = encodeURIComponent(
+      `Name: ${name}
+Email: ${email}
+
+Message:
+${message}`
     );
+
+    window.location.href = `mailto:Kripesh.gurung@westcliff.edu?subject=${emailSubject}&body=${emailBody}`;
+
     contactForm.reset();
   });
 }

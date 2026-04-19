@@ -64,12 +64,6 @@ A modern glass-style portfolio website built using HTML, CSS, and JavaScript.
    - resume.pdf
 4. Open index.html in your browser.
 
-## What to Customize
-
-- Replace `yourname@email.com` in index.html with your real email
-- Replace the GitHub `#` link with your actual GitHub profile
-- Replace `resume.pdf` with your real CV file
-
 ## Technologies Used
 
 - HTML5

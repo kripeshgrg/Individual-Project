@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kripesh Gurung | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">KG</a>
+
+      <nav class="navbar" id="navbar">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link mobile-contact-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+        <a href="#contact" class="talk-btn">Let's Talk</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero section" id="home">
+    <div class="container hero-content">
+      <p class="intro-text">I am Kripesh</p>
+
+      <h1>
+        Production Manager<br />
+        & Creative Assistant
+      </h1>
+
+      <p class="hero-description">
+        Supporting productions with planning, coordination, creative assistance,
+        and smooth on-ground execution across photo shoots, ad shoots, and music videos.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="primary-btn">Contact Me</a>
+        <a href="resume.pdf" class="secondary-btn" download>Download CV</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="clock-container">
+        <div class="clock-box">
+          <p>Nepal Time</p>
+          <h2 id="nepalTime">--:--:--</h2>
+          <span>NPT · UTC+5:45</span>
+        </div>
+
+        <div class="clock-box">
+          <p>Your Time</p>
+          <h2 id="localTime">--:--:--</h2>
+          <span id="userTimezone">Detecting timezone...</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Services</h2>
+        <p>Supporting well-organized and efficient production workflows</p>
+      </div>
+
+      <div class="card-grid four-grid">
+        <div class="info-card">
+          <h3>Production Planning</h3>
+          <p>
+            Organizing schedules, shoot requirements, and coordination tasks to help
+            production move in a structured way.
+          </p>
+          <div class="tag-wrap">
+            <span>Scheduling</span>
+            <span>Planning</span>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>On-Set Assistance</h3>
+          <p>
+            Helping teams during production with setup support, task coordination,
+            and reliable execution on shoot day.
+          </p>
+          <div class="tag-wrap">
+            <span>Set Support</span>
+            <span>Execution</span>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>Art Support</h3>
+          <p>
+            Assisting with visual arrangements, props, and creative support for
+            music videos and ad productions.
+          </p>
+          <div class="tag-wrap">
+            <span>Props</span>
+            <span>Creative Support</span>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>Production Coordination</h3>
+          <p>
+            Supporting communication between teams and helping day-to-day workflow
+            stay clear and organized.
+          </p>
+          <div class="tag-wrap">
+            <span>Teamwork</span>
+            <span>Coordination</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-heading">
+        <h2>About Me</h2>
+        <p>
+          A final year BSIT student with hands-on experience in production work,
+          creative assistance, and commercial shoot support.
+        </p>
+      </div>
+
+      <div class="about-text-box">
+        <p>
+          I have worked across different production roles including Production Manager,
+          Production Assistant, and Art Assistant. I focus on being dependable,
+          organized, and easy to work with. I enjoy helping creative teams bring ideas
+          into reality while keeping tasks practical, smooth, and well coordinated.
+        </p>
+      </div>
+
+      <h3 class="sub-title">My Approach</h3>
+
+      <div class="approach-grid">
+        <div class="approach-card">
+          <span class="number-box">01</span>
+          <p>Understand the production needs clearly</p>
+        </div>
+        <div class="approach-card">
+          <span class="number-box">02</span>
+          <p>Support organized team execution</p>
+        </div>
+        <div class="approach-card">
+          <span class="number-box">03</span>
+          <p>Deliver reliable help on every project</p>
+        </div>
+      </div>
+
+      <div class="stats-grid two-stats">
+        <div class="stat-box">
+          <h3>03+</h3>
+          <p>Years of Experience</p>
+        </div>
+        <div class="stat-box">
+          <h3>10+</h3>
+          <p>Projects Delivered</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Skills</h2>
+        <p>Core strengths in production, support work, and communication</p>
+      </div>
+
+      <div class="card-grid four-grid">
+        <div class="info-card">
+          <h3>Core Skills</h3>
+          <div class="tag-wrap">
+            <span>Production Planning</span>
+            <span>Coordination</span>
+            <span>Set Assistance</span>
+            <span>Communication</span>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>Production Experience</h3>
+          <div class="tag-wrap">
+            <span>Photo Shoots</span>
+            <span>Ad Shoots</span>
+            <span>Music Videos</span>
+            <span>Creative Support</span>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>Professional Traits</h3>
+          <div class="tag-wrap">
+            <span>Reliable</span>
+            <span>Organized</span>
+            <span>Adaptable</span>
+            <span>Fast Learner</span>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <h3>Academic Background</h3>
+          <div class="tag-wrap">
+            <span>BSIT Student</span>
+            <span>Problem Solving</span>
+            <span>Project Work</span>
+            <span>Team Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS / EXPERIENCE -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Projects & Experience</h2>
+        <p>Selected production roles and work experience</p>
+      </div>
+
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Production Manager</h3>
+          <p class="project-subtitle">Fanta Photo Shoot</p>
+          <p>
+            Managed production responsibilities and supported the smooth execution
+            of the shoot process.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Production Assistant</h3>
+          <p class="project-subtitle">Sprite Photoshoot</p>
+          <p>
+            Assisted with production support, team coordination, and shoot-day tasks.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Production Assistant</h3>
+          <p class="project-subtitle">eSewa Ad Shoot</p>
+          <p>
+            Supported ad production logistics and practical coordination during execution.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Art Assistant</h3>
+          <p class="project-subtitle">Sushant KC's Sarangi</p>
+          <p>
+            Helped the art department with visual setup, creative support, and production-side assistance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Education</h2>
+        <p>My current academic background</p>
+      </div>
+
+      <div class="education-card">
+        <h3>BSIT</h3>
+        <p>King's College (Affiliated to Westcliff University)</p>
+        <span>2023 – Present</span>
+        <p class="edu-note">Currently in 4th and final year</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Let's Work Together</h2>
+        <p>If you have a project or opportunity, feel free to reach out.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <h3>Contact Info</h3>
+          <p><strong>Name:</strong> Kripesh Gurung</p>
+          <p><strong>Location:</strong> Kathmandu, Nepal</p>
+          <p><strong>Email:</strong> Kripesh.gurung@westcliff.edu</p>
+          <p><strong>Status:</strong> Open to opportunities</p>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea rows="6" placeholder="Your Message" required></textarea>
+          <button type="submit" class="primary-btn form-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Kripesh Gurung. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
